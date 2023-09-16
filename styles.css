@@ -1,0 +1,117 @@
+/* Reset default styles and set a background color */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    /* Specify the background image and set it to cover the entire viewport */
+    background: url('https://images.unsplash.com/photo-1604079681864-c6fbd7eb109c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60') no-repeat center center fixed;
+    background-size: cover;
+
+    /* Center all text horizontally and vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center; /* Moved text-align here for consistency */
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Improve navigation alignment and spacing */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url('');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Use a consistent margin for headings */
+.hero h1,
+.hero h2,
+.hero h3 {
+    margin-bottom: 20px;
+}
+
+/* Style the call-to-action button */
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff4500;
+}
+
+/* Style for the button container */
+.social-buttons {
+    text-align: center; /* Center-align the buttons */
+}
+
+/* Style for the Instagram button */
+.instagram-button {
+    display: inline-block;
+    background-color: #E4405F; /* Instagram's brand color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold;
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+    margin: 0 10px; /* Add space between the buttons */
+}
+
+.instagram-button:hover {
+    background-color: #C13584; /* Slightly different color on hover */
+}
+
+/* Style for the Upwork button */
+.upwork-button {
+    display: inline-block;
+    background-color: #6FDA44; /* Upwork's brand color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold;
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+    margin: 0 10px; /* Add space between the buttons */
+}
+
+.upwork-button:hover {
+    background-color: #55BB33; /* Slightly different color on hover */
+}
+
